@@ -3,7 +3,7 @@ import instagram from '../images/instagram.png';
 import twitter from '../images/twitter.png';
 
 const footer = document.createElement('footer');
-footer.classList.add('container');
+footer.classList.add('footer');
 
 footer.innerHTML = `
 <div class="row footer bg-light">

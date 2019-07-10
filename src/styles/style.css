@@ -69,7 +69,7 @@ body{
 }
 
 .navMenu{
-	padding-top: 75px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
@@ -99,19 +99,25 @@ body{
   width: 36px;
   text-decoration: none;
 }
+
 .social-icon {
 	text-decoration: none;
 }
 
-
 footer{
-	/* position: fixed;
-	bottom: 0px;
-	padding-top: 20px; */
+	padding: 10px 0 10px 0;
   height: 50px;
+  background-color: #f8f9fa;
 }
 
 #content {
   min-height: calc(100vh - 70px);
-  padding: 40px 40px 0 40px;
+  padding-top: 5%;
+  padding-bottom: 6px;
+}
+.reservation-container{
+  margin: 5%;
+}
+#map-location {
+  height: 600px;
 }
