@@ -78,7 +78,8 @@ body{
 }
 
 .map{
-	height: 320px;
+	height: 370px;
+  width: auto;
 }
 
 @media screen and (max-width : 1920px){
@@ -115,9 +116,11 @@ footer{
   padding-top: 5%;
   padding-bottom: 6px;
 }
-.reservation-container{
-  margin: 5%;
+
+#map-container {
+  margin-left: 16px;
 }
-#map-location {
-  height: 600px;
+
+.reservation-container {
+  padding: 40px 0 10px 0;
 }

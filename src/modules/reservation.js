@@ -1,8 +1,9 @@
+
 const reservation = document.createElement('div');
 
- reservation.classList.add('reservation-container');
-
+ reservation.classList.add('reservation-container','container');
 reservation.innerHTML = `
+
 <div class="row bg-light">
   <div class="col">
     <form>

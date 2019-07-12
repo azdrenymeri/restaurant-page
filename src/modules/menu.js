@@ -5,7 +5,7 @@ import meatMenuImg from '../images/meat-menu.jpg';
 const menu = document.createElement('div');
 menu.classList.add('container');
 menu.innerHTML = `
-<div class="row" id="Menu">
+<div class="row">
   <div class="col navMenu">
       <h2 class="text-center" >~ Menu ~</h2>
   </div>

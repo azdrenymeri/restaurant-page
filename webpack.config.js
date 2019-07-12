@@ -10,6 +10,7 @@ module.exports = {
   plugins: [
     new Dotenv()
   ],
+  devtool: 'inline-source-map',
   module: {
      rules: [{
        test: /\.js$/,

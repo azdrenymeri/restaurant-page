@@ -2,7 +2,6 @@ import wellcomeImg from '../images/wellcome-headline.jpg';
 
 
 const wellcome = document.createElement('div');
-
 wellcome.innerHTML = `
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">

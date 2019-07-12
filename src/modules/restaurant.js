@@ -4,7 +4,7 @@ import cusineImg from '../images/cuisine.jpg';
 const restaurant  = document.createElement('div');
 restaurant.classList.add('container');
 restaurant.innerHTML = `
-  <div class="row" id="Restaurant">
+  <div class="row">
       <div class="col navMenu">
         <h2 class="text-center" >~ Restaurant ~</h2>
       </div>

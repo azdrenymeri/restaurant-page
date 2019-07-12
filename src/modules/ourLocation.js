@@ -1,15 +1,17 @@
 import {Map}  from './map';
 const ourLocation = document.createElement('div');
-
+ourLocation.setAttribute('id','ourLocation')
 ourLocation.innerHTML = `
-<div class="row" id="OurLocation">
+<div class="row">
   <div class="col navMenu">
     <h2 class="text-center">~ Our Location ~</h2>
   </div>
 </div>
 <div class="row">
-  <div id="map-location" class="col-md-9 map"></div>
-  <div class="col-md-3">
+  <div id="map-container" class="col-md-9">
+  <div id="map-location" class="map"></div>
+  </div>
+  <div class="col-md-2">
     <h3>Address:</h3>
     <p>Viale Enrico Fermi, 20159 Milan, Mailand (Lombardia) </p>
     <h3>Email:</h3>
@@ -17,13 +19,14 @@ ourLocation.innerHTML = `
   </div>
 </div>`;
 
-document.addEventListener("DOMContentLoaded", function() {
+const initMap = () => {
   let mapElement = document.getElementById('map-location');
 
   Map.loadGoogleMapsApi().then(function(googleMaps) {
     Map.createMap(googleMaps, mapElement);
   });
-});
+  console.log("seting map");
+}
 
 
-export {ourLocation}
+export {ourLocation,initMap}
