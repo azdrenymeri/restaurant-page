@@ -1,1 +1,3 @@
-console.log("Webpack is running");
+import {pageLoad} from './modules/pageLoad'
+
+pageLoad();

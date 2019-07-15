@@ -1,6 +1,11 @@
 # Restaurant Page
 #### This is a simple restaurant page build with javascript
-#### Libraries used : 
+#### Libraries used :
 * Webpack
-### Author: @azdrenymeri
+* Webpack CSS loader
+* Webpack file loader
+* Babel
+* Google Maps API
+* Webpack dotenv
 
+### Author: @azdrenymeri
