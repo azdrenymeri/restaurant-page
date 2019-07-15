@@ -24,7 +24,6 @@ const navItems = header.getElementsByClassName('nav-item');
 
 for(let item of navItems){
   item.addEventListener('click',(event) => {
-      console.log(event.target.getAttribute('id')+" clicked");
       setTab(event.target.getAttribute('id'));
   });
 }

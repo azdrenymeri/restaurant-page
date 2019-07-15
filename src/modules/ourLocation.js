@@ -25,7 +25,7 @@ const initMap = () => {
   Map.loadGoogleMapsApi().then(function(googleMaps) {
     Map.createMap(googleMaps, mapElement);
   });
-  console.log("seting map");
+  
 }
 
 
