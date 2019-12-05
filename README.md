@@ -1,5 +1,6 @@
 # Restaurant Page ([Live](https://azdrenymeri.github.io/restaurat-page/))
-#### This is a simple restaurant page build with javascript
+#### The app is built with javascript.
+The app has different sections: Restaurant,Menu, Reservation and the location.
 ![scr](https://github.com/azdrenymeri/azdrenymeri.github.io/blob/master/images/restaurant-page.JPG)
 #### Libraries used :
 * Webpack
