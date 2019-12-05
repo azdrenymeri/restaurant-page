@@ -1,5 +1,5 @@
 # Restaurant Page ([Live](https://azdrenymeri.github.io/restaurat-page/))
-#### The app is built with javascript.
+#### Restaurant page is built with javascript.
 The app has different sections: Restaurant,Menu, Reservation and the location.
 ![scr](https://github.com/azdrenymeri/azdrenymeri.github.io/blob/master/images/restaurant-page.JPG)
 #### Libraries used :
